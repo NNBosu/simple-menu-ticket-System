@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomato6966/simple-menu-ticket-System.git"
+    "url": "git+https://github.com/NNBosu/simple-menu-ticket-System.git"
   },
-  "author": "Tomato#6966",
+  "author": "[NN] Bosu#3182",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tomato6966/simple-menu-ticket-System/issues"
+    "url": "https://github.com/NNBosu/simple-menu-ticket-System/issues"
   },
-  "homepage": "https://github.com/Tomato6966/simple-menu-ticket-System#readme"
+  "homepage": "https://github.com/NNBosu/simple-menu-ticket-System#readme"
 }
