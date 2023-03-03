@@ -131,7 +131,7 @@ client.on("interactionCreate", async (interaction) => {
             } break;
             case "ordering_help": {
                 let channel = await CreateTicket({
-                    OpeningMessage: "Now creating the Ordering Help Ticket ...",
+                    OpeningMessage: "Now creating the reporting Help Ticket ...",
                     ClosedMessage: `Report Ticket Opened in: <#{channelId}>`,
                     embeds: [ new Discord.MessageEmbed().setColor("ORANGE").setTitle("How can we help you?").setTimestamp()]
                 }).catch(e=>{
