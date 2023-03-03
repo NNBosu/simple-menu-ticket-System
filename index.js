@@ -79,9 +79,9 @@ client.on("messageCreate", async (message) => {
                     emoji: "👌", //optional
                 },
                 {
-                    label: "Ordering Help".substr(0, 25), //maximum 25 Letters long
-                    value: "ordering_help".substr(0, 25), //maximum 25 Letters long
-                    description: "If you need help with ordering".substr(0, 50), //maximum 50 Letters long
+                    label: "Report".substr(0, 25), //maximum 25 Letters long
+                    value: "report".substr(0, 25), //maximum 25 Letters long
+                    description: "If you need to report someone".substr(0, 50), //maximum 50 Letters long
                     emoji: "👍", //optional
                 }
             ])
@@ -132,7 +132,7 @@ client.on("interactionCreate", async (interaction) => {
             case "ordering_help": {
                 let channel = await CreateTicket({
                     OpeningMessage: "Now creating the Ordering Help Ticket ...",
-                    ClosedMessage: `Ordering Ticket Opened in: <#{channelId}>`,
+                    ClosedMessage: `Report Ticket Opened in: <#{channelId}>`,
                     embeds: [ new Discord.MessageEmbed().setColor("ORANGE").setTitle("How can we help you?").setTimestamp()]
                 }).catch(e=>{
                     return console.log(e)
