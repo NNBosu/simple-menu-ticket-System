@@ -80,7 +80,7 @@ client.on("messageCreate", async (message) => {
                 },
                 {
                     label: "Report".substr(0, 25), //maximum 25 Letters long
-                    value: "report".substr(0, 25), //maximum 25 Letters long
+                    value: "ordering_help".substr(0, 25), //maximum 25 Letters long
                     description: "If you need to report someone".substr(0, 50), //maximum 50 Letters long
                     emoji: "👍", //optional
                 }
