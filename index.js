@@ -21,7 +21,7 @@ client.on("ready", () => {
     console.log(`${client.user.tag} is now ready to be used!`);
 })
 
-client.login(config.token)
+client.login(process.env.token || config.token);
 
 client.on("messageCreate", async (message) => {
     if(!message.guild || message.author.bot) return;
